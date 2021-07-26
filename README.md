@@ -1,2 +1,2 @@
 # JavascriptToDoList
-This was a practice project under NewtonSchool
+A javascript demo project
