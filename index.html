@@ -1,4 +1,22 @@
 <!DOCTYPE html>
 <html>
-    <script src="main.js"/>
+    <head>
+        <link rel="stylesheet" type="text/css" href="main.css">
+    </head>
+
+    <body>
+        <div id="mainDIV" class="addToDo">
+            <h2 style="margin:10px">Java To-Do List</h2>
+            <input type="text" id="taskInput" placeholder="Task">
+            <span onclick="newElement()" class="addBtn">+</span>
+        </div>
+          
+          <ul id="todoList">
+            <li>Work on Projects</li>
+            <li class="checked">Create CV</li>
+            <li>Apply for Job</li>
+          </ul>
+    </body>
+
+    <script type="text/javascript" src="main.js"/>
 </html>
