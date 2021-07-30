@@ -35,13 +35,13 @@ body {
     background: #ddd;
   }
   
-  ul li.done {
+  ul li.taskDone {
     background: #888;
     color: #fff;
     text-decoration: line-through;
   }
   
-  ul li.done::before {
+  ul li.taskDone::before {
     content: '';
     position: absolute;
     border-color: #fff;
