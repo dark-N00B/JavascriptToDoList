@@ -18,9 +18,9 @@ for (i = 0; i < close.length; i++) {
 }
 
 var list = document.querySelector('ul');
-list.addEventListener('click', function(ev) {
-  if (ev.target.tagName === 'LI') {
-    ev.target.classList.toggle('taskDone');
+list.addEventListener('click', function(event) {
+  if (event.target.tagName === 'LI') {
+    event.target.classList.toggle('taskDone');
   }
 }, false);
 
