@@ -33,6 +33,7 @@ function newElement() {
     alert("Task cannot be empty!");
   } else {
     document.getElementById("todoList").appendChild(li);
+    save();
   }
   document.getElementById("taskInput").value = "";
 
@@ -48,4 +49,9 @@ function newElement() {
       div.style.display = "none";
     }
   }
+}
+
+function save() {
+    var inputValue = document.getElementById("taskInput").value;
+
 }
