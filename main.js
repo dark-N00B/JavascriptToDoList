@@ -33,7 +33,7 @@ function newElement() {
     alert("Task cannot be empty!");
   } else {
     document.getElementById("todoList").appendChild(li);
-    save();
+    save(inputValue);
   }
   document.getElementById("taskInput").value = "";
 
@@ -51,7 +51,6 @@ function newElement() {
   }
 }
 
-function save() {
-    var inputValue = document.getElementById("taskInput").value;
-
+function save(inputValue) {
+    
 }
