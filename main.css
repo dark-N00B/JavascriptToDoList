@@ -117,6 +117,12 @@ body {
     border-radius: 1;
   }
 
+  .sourceBtn:hover {
+      background-color: white;
+      color: blue;
+      transition-duration: 1000;
+  }
+
   .sourceDiv {
     background:#8ac57b;
   }
