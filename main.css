@@ -120,7 +120,7 @@ body {
   .sourceBtn:hover {
       background-color: white;
       color: blue;
-      transition-duration: 1000;
+      transition: 0.5s;
   }
 
   .sourceDiv {
